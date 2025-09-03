@@ -32,7 +32,7 @@ Confirmation of your mail
 						<Text className='text-gray-600'>
 							If you have questions or you are faced with difficulties, do not hesitate to contact our support at the address{' '}
 							<Link 
-								href="mailto:help@teastream.ru" 
+								href="mailto:help@crix.az" 
 								className="text-[#18b9ae] underline"
 							>
 								help@crix.az

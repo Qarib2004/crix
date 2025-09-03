@@ -1,6 +1,11 @@
 import { Field, ID, ObjectType } from '@nestjs/graphql'
 
 import type { User } from '@/generated'
+import { SocialLinkModel } from '../../profile/model/social-link.model'
+import { StreamModel } from '@/src/modules/stream/models/stream.model'
+import { NotificationModel } from '@/src/modules/notification/models/notification.model'
+import { NotificationSettingsModel } from '@/src/modules/notification/models/notification-settings.model'
+import { FollowModel } from '@/src/modules/follow/models/follow.model'
 // import { FollowModel } from '@/src/modules/follow/models/follow.model'
 // import { NotificationSettingsModel } from '@/src/modules/notification/models/notification-settings.model'
 // import { NotificationModel } from '@/src/modules/notification/models/notification.model'
@@ -54,23 +59,23 @@ export class UserModel implements User {
 	@Field(() => Date, { nullable: true })
 	public deactivatedAt: Date
 
-	// @Field(() => [SocialLinkModel])
-	// public socialLinks: SocialLinkModel[]
+	@Field(() => [SocialLinkModel])
+	public socialLinks: SocialLinkModel[]
 
-	// @Field(() => StreamModel)
-	// public stream: StreamModel
+	@Field(() => StreamModel)
+	public stream: StreamModel
 
-	// @Field(() => [NotificationModel])
-	// public notifications: NotificationModel[]
+	@Field(() => [NotificationModel])
+	public notifications: NotificationModel[]
 
-	// @Field(() => NotificationSettingsModel)
-	// public notificationSettings: NotificationSettingsModel
+	@Field(() => NotificationSettingsModel)
+	public notificationSettings: NotificationSettingsModel
 
-	// @Field(() => [FollowModel])
-	// public followers: FollowModel[]
+	@Field(() => [FollowModel])
+	public followers: FollowModel[]
 
-	// @Field(() => [FollowModel])
-	// public followings: FollowModel[]
+	@Field(() => [FollowModel])
+	public followings: FollowModel[]
 
 	// @Field(() => [PlanModel])
 	// public sponsorshipPlans: PlanModel[]

@@ -84,12 +84,14 @@ export class SessionsService {
     
 	  public async login(req: Request, input: LoginInput, userAgent: string) {
 		const { login, password ,pin} = input
-	
+
+		console.log('Login input:', input);
+
 		const user = await this.prismaService.user.findFirst({
 			where: {
 				OR: [
-					{ username: { equals: login } },
-					{ email: { equals: login } }
+					{ username: { equals: login, mode: 'insensitive' } },
+					{ email: { equals: login, mode: 'insensitive' } }
 				]
 			}
 		})
@@ -136,10 +138,8 @@ export class SessionsService {
 		}
 	
 		const metadata = getSessionMetadata(req, userAgent)
-		
-		await saveSession(req, user, metadata)
-		
-		return user
+
+		return saveSession(req, user, metadata)
 	}
 
 	

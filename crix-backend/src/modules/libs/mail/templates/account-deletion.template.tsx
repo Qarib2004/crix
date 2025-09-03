@@ -29,7 +29,7 @@ export function AccountDeletionTemplate({ domain }:AccountDeletionTemplateProps)
 							Your account was completely deleted
 						</Heading>
 						<Text className="text-base text-black mt-2">
-							Your account was completely erased from the Teastream database.All your data and information were deleted irrevocably.
+							Your account was completely erased from the Crix database.All your data and information were deleted irrevocably.
 						</Text>
 					</Section>
 

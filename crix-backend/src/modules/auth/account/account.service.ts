@@ -64,7 +64,7 @@ export class AccountService {
 				displayName: username,
 				stream: {
 					create: {
-						title: `Стрим ${username}`
+						title: `Stream ${username}`
 					}
 				},
 				notificationSettings: {
