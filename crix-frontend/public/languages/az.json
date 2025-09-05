@@ -1,0 +1,622 @@
+{
+	"layout": {
+		"header": {
+			"logo": {
+				"platform": "Yayım platforması"
+			},
+			"headerMenu": {
+				"login": "Daxil ol",
+				"register": "Qeydiyyat",
+				"profileMenu": {
+					"notifications": {
+						"heading": "Bildirişlər",
+						"loading": "Yüklənir...",
+						"empty": "Bildirişləriniz yoxdur"
+					},
+					"successMessage": "Sistemdən uğurla çıxdınız",
+					"errorMessage": "Çıxışda xəta",
+					"channel": "Mənim kanalım",
+					"dashboard": "İdarə paneli",
+					"logout": "Çıxış"
+				}
+			},
+			"search": {
+				"placeholder": "Axtarış"
+			}
+		},
+		"sidebar": {
+			"header": {
+				"expand": "Genişləndir",
+				"collapse": "Yığcamlaşdır",
+				"navigation": "Naviqasiya"
+			},
+			"dashboardNav": {
+				"settings": "Parametrlər",
+				"streamSettings": "Yayım parametrləri",
+				"keys": "Yayım açarları",
+				"chatSettings": "Söhbət parametrləri",
+				"followers": "Abunəçilər",
+				"sponsors": "Sponsorlar",
+				"premium": "Premium planlar",
+				"transactions": "Əməliyyatlar"
+			},
+			"userNav": {
+				"home": "Ana səhifə",
+				"categories": "Kateqoriyalar",
+				"streams": "Yayımlar",
+				"recommended": "Tövsiyələr"
+			},
+			"recommended": {
+				"heading": "Tövsiyələr"
+			}
+		}
+	},
+	"home": {
+		"streamsHeading": "Sizə xoş gələ biləcək kanallar",
+		"categoriesHeading": "Sizə xoş gələ biləcək kateqoriyalar"
+	},
+	"categories": {
+		"heading": "Kateqoriyalar",
+		"overview": {
+			"heading": "Bu kateqoriyada yayımlar"
+		}
+	},
+	"streams": {
+		"heading": "Yayımlar",
+		"searchHeading": "Sorğu üzrə axtarış"
+	},
+	"stream": {
+		"video": {
+			"offline": "oflayn",
+			"loading": "Bağlanır...",
+			"player": {
+				"volume": "Səs",
+				"fullscreen": {
+					"open": "Tam ekran rejimi",
+					"exit": "Tam ekrandan çıx"
+				}
+			}
+		},
+		"info": {
+			"viewers": "tamaşaçı",
+			"offline": "Oflayn"
+		},
+		"actions": {
+			"follow": {
+				"confirmUnfollowHeading": "İzləməyi dayandır",
+				"confirmUnfollowMessage": "Artıq bu kanaldan bildirişlər almayacaqsınız və o, izlədiyiniz kanallar siyahısından silinəcək",
+				"unfollowButton": "İzləməyi dayandır",
+				"followButton": "İzlə",
+				"successFollowMessage": "Uğurla abunə oldunuz",
+				"errorFollowMessage": "Abunəlikdə xəta",
+				"successUnfollowMessage": "Uğurla abunəlikdən çıxdınız",
+				"errorUnfollowMessage": "Abunəlikdən çıxışda xəta"
+			},
+			"support": {
+				"alreadySponsor": "Siz artıq sponsorsunuz",
+				"supportAuthor": "Müəllifi dəstəklə",
+				"perMonth": "ayda",
+				"choose": "Seç",
+				"errorMessage": "Ödəniş yaradılmasında xəta"
+			},
+			"share": {
+				"heading": "Vasitəsilə paylaş"
+			}
+		},
+		"aboutChannel": {
+			"heading": "Haqqında məlumat",
+			"followersCount": "abunəçi",
+			"noDescription": "Təsvir göstərilməyib"
+		},
+		"sponsors": {
+			"heading": "Kanalın sponsorları"
+		},
+		"chat": {
+			"heading": "Söhbət",
+			"unavailable": "Söhbət əlçatan deyil",
+			"unavailableMessage": "Kanalda yayım olmadığı müddətdə söhbət əlçatan deyil. Zəhmət olmasa sonra yenidən yoxlayın!",
+			"loading": "Bağlanır...",
+			"info": {
+				"authRequired": "Avtorizasiya tələb olunur",
+				"chatDisabled": "Söhbət söndürülüb",
+				"premiumFollowersOnly": "Yalnız sponsorlar üçün",
+				"followersOnly": "Yalnız abunəçilər üçün"
+			},
+			"sendMessage": {
+				"placeholder": "Mesaj göndər",
+				"emojiPlaceholder": "Axtarış",
+				"errorMessage": "Mesaj göndərilməsində xəta"
+			}
+		},
+		"settings": {
+			"heading": "Yayım parametrləri",
+			"thumbnail": {
+				"updateButton": "Şəkili yenilə",
+				"confirmModal": {
+					"heading": "Yayım üçün görüntünün silinməsi",
+					"message": "Yayım üçün şəkili silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq mümkün olmayacaq."
+				},
+				"info": "Dəstəklənən formatlar: JPG, JPEG, PNG və ya GIF. Maksimum ölçü: 10 MB.",
+				"successUpdateMessage": "Yayım şəkili yeniləndi",
+				"errorUpdateMessage": "Yayım şəklinin yenilənməsində xəta",
+				"successRemoveMessage": "Yayım şəkili silindi",
+				"errorRemoveMessage": "Yayım şəklinin silinməsində xəta"
+			},
+			"info": {
+				"titleLabel": "Adı",
+				"titlePlaceholder": "GTA 5 üzrə yayım",
+				"titleDescription": "Yayımınızın adını daxil edin. O, qısa və yadda qalıcı olmalıdır.",
+				"categoryLabel": "Kateqoriya",
+				"categoryPlaceholder": "Kateqoriya seçin",
+				"categoryDescription": "Kontentinizin aid olduğu kateqoriyanı seçin. Bu, tamaşaçılara yayımlarınızı daha asan tapmaqda kömək edəcək.",
+				"submitButton": "Dəyişiklikləri saxla",
+				"successMessage": "Yayım parametrləri uğurla yeniləndi",
+				"errorMessage": "Yayım parametrlərinin yenilənməsində xəta"
+			}
+		}
+	},
+	"success": {
+		"heading": "Ödəniş uğurla həyata keçirildi!",
+		"details": {
+			"heading": "Sponsorluq təfərrüatları:",
+			"price": "Qiymət:",
+			"duration": "Müddət:",
+			"channel": "Kanal:"
+		},
+		"congratulations": "İndi kanalın premium kontentinə çıxışınız var!",
+		"backToHome": "Ana səhifəyə qayıt",
+		"backToChannel": "Kanala qayıt",
+		"support": "Suallarınız olarsa, dəstək xidməti ilə əlaqə saxlayın."
+	},
+	"notFound": {
+		"description": "Ups, nəsə səhv getdi.",
+		"backToHome": "Ana səhifəyə keç"
+	},
+	"auth": {
+		"register": {
+			"heading": "Crix-də qeydiyyat",
+			"backButtonLabel": "Hesabınız var? Daxil olun",
+			"usernameLabel": "İstifadəçi adı",
+			"usernameDescription": "Bu adla sizi digər istifadəçilər tanıyacaq.",
+			"emailLabel": "E-poçt",
+			"emailDescription": "E-poçt ünvanınızı hesabla bağlı mesajlar göndərmək üçün istifadə edə bilərik.",
+			"passwordLabel": "Şifrə",
+			"passwordDescription": "Şifrə ən azı 8 simvoldan ibarət olmalıdır.",
+			"submitButton": "Qeydiyyatdan keç",
+			"successAlertTitle": "E-poçtunuzu yoxlayın",
+			"successAlertDescription": "E-poçt ünvanınıza təsdiq məktubu göndərildi. Əgər məktubu görmürsünüzsə, \"Spam\" qovluğunu yoxlayın",
+			"errorMessage": "Hesab yaradılmasında xəta"
+		},
+		"verify": {
+			"heading": "Hesabın təsdiqi",
+			"successMessage": "Hesab təsdiqləndi",
+			"errorMessage": "Təsdiqdə xəta"
+		},
+		"login": {
+			"heading": "Crix-ə daxil ol",
+			"backButtonLabel": "Hesabınız yoxdur? Qeydiyyatdan keçin!",
+			"loginLabel": "Login",
+			"loginDescription": "Qeydiyyat zamanı daxil etdiyiniz ad və ya e-poçt.",
+			"passwordLabel": "Şifrə",
+			"passwordDescription": "Qeydiyyat zamanı daxil etdiyiniz şifrə.",
+			"pinLabel": "6 rəqəmli kod",
+			"pinDescription": "Autentifikasiya tətbiqinizdən kodu daxil edin.",
+			"forgotPassword": "Şifrəni unutmusunuz?",
+			"submitButton": "Daxil ol",
+			"successMessage": "Uğurla sistemə daxil oldunuz",
+			"errorMessage": "Sistemə daxil olunmasında xəta"
+		},
+		"resetPassword": {
+			"heading": "Şifrənin sıfırlanması",
+			"backButtonLabel": "Hesabınız var? Daxil olun",
+			"emailLabel": "E-poçt",
+			"emailDescription": "Qeydiyyat zamanı daxil etdiyiniz e-poçt",
+			"submitButton": "Şifrəni sıfırla",
+			"successAlertTitle": "Link göndərildi",
+			"successAlertDescription": "Şifrəni sıfırlamaq üçün link e-poçt ünvanınıza göndərildi. Telegram-da bildirişlər aktivdirsə, link ora da göndərildi",
+			"errorMessage": "Şifrənin sıfırlanmasında xəta"
+		},
+		"newPassword": {
+			"heading": "Yeni şifrə",
+			"backButtonLabel": "Hesabınız var? Daxil olun",
+			"passwordLabel": "Yeni şifrə",
+			"passwordDescription": "Qeydiyyat zamanı daxil etdiyiniz şifrə",
+			"passwordRepeatLabel": "Şifrəni təkrarla",
+			"passwordRepeatDescription": "Təsdiq üçün yeni şifrənizi təkrarlayın",
+			"submitButton": "Davam et",
+			"successMessage": "Şifrə uğurla dəyişdirildi",
+			"errorMessage": "Yeni şifrənin qoyulmasında xəta"
+		},
+		"deactivate": {
+			"heading": "Hesabın deaktivasiyası",
+			"backButtonLabel": "İdarə panelinə keç",
+			"emailLabel": "E-poçt",
+			"emailDescription": "Qeydiyyat zamanı daxil etdiyiniz e-poçt",
+			"passwordLabel": "Şifrə",
+			"passwordDescription": "Qeydiyyat zamanı daxil etdiyiniz şifrə",
+			"pinLabel": "6 rəqəmli kod",
+			"pinDescription": "E-poçtunuza kod göndərildi. Telegram-da bildirişlər bağlıdırsa, kodu ora da göndərdik",
+			"submitButton": "Deaktiv et",
+			"successMessage": "Hesabı uğurla deaktiv etdiniz",
+			"errorMessage": "Deaktivasiyada xəta"
+		}
+	},
+	"dashboard": {
+		"settings": {
+			"header": {
+				"heading": "Parametrlər",
+				"description": "Burada parametrlərinizi idarə edə bilərsiniz",
+				"profile": "Profil",
+				"account": "Hesab",
+				"appearance": "Görünüş",
+				"notifications": "Bildirişlər",
+				"sessions": "Sessiyalar"
+			},
+			"profile": {
+				"header": {
+					"heading": "Profil",
+					"description": "Profilinizi konfiqurasiya edin, avatar yeniləyin, özünüz haqqında məlumatları dəyişin və sosial şəbəkələrə linklər əlavə edin ki, səhifənizi digər istifadəçilər üçün daha cəlbedici edəsiniz."
+				},
+				"avatar": {
+					"heading": "Profil şəkli",
+					"updateButton": "Profil şəklini yenilə",
+					"confirmModal": {
+						"heading": "Avatarın silinməsi",
+						"message": "Profil şəklini silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq mümkün olmayacaq."
+					},
+					"info": "Dəstəklənən formatlar: JPG, JPEG, PNG, WEBP və ya GIF. Maksimum ölçü: 10 MB.",
+					"successUpdateMessage": "Profil şəkli uğurla yeniləndi",
+					"errorUpdateMessage": "Profil şəklinin yenilənməsində xəta",
+					"successRemoveMessage": "Profil şəkli uğurla silindi",
+					"errorRemoveMessage": "Profil şəklinin silinməsində xəta"
+				},
+				"info": {
+					"heading": "Profil parametrləri",
+					"usernameLabel": "İstifadəçi adı",
+					"usernamePlaceholder": "johndoe",
+					"usernameDescription": "Bu adla sizi digər istifadəçilər tanıyacaq.",
+					"displayNameLabel": "Göstərilən ad",
+					"displayNamePlaceholder": "John Doe",
+					"displayNameDescription": "İstifadəçi adında böyük hərfləri öz istəyinizə görə qoyun.",
+					"bioLabel": "Özüm haqqında",
+					"bioPlaceholder": "Mən proqramlaşdırmağı sevirəm",
+					"bioDescription": "Özünüz haqqında məlumat 300 simvoldan çox olmamalıdır.",
+					"submitButton": "Dəyişiklikləri saxla",
+					"successMessage": "Profil uğurla yeniləndi",
+					"errorMessage": "Profilin yenilənməsində xəta"
+				},
+				"socialLinks": {
+					"createForm": {
+						"heading": "Sosial şəbəkələrə linklər",
+						"titleLabel": "Link adı",
+						"titlePlaceholder": "Youtube",
+						"titleDescription": "Link mətni",
+						"urlLabel": "Link URL-i",
+						"urlPlaceholder": "https://github.com/Crix",
+						"urlDescription": "Bu link haraya aparır? Tam URL ünvanını daxil edin, məsələn https://github.com/Crix",
+						"submitButton": "Əlavə et",
+						"successMessage": "Sosial şəbəkə linki uğurla əlavə edildi",
+						"errorMessage": "Sosial şəbəkə linkinin əlavə edilməsində xəta"
+					},
+					"editForm": {
+						"cancelButton": "Ləğv et",
+						"submitButton": "Saxla",
+						"successUpdateMessage": "Sosial şəbəkə linki uğurla dəyişdirildi",
+						"errorUpdateMessage": "Sosial şəbəkənin yenilənməsində xəta",
+						"successRemoveMessage": "Sosial şəbəkə linki uğurla silindi",
+						"errorRemoveMessage": "Sosial şəbəkənin silinməsində xəta"
+					},
+					"successReorderMessage": "Sosial şəbəkə linklərinin sırası dəyişdirildi",
+					"errorReorderMessage": "Sosial şəbəkələrin sırasının dəyişdirilməsində xəta"
+				}
+			},
+			"account": {
+				"header": {
+					"heading": "Hesab",
+					"description": "Hesabınızın parametrlərini idarə edin, o cümlədən çıxışın dəyişdirilməsi, təhlükəsizlik və deaktivasiya imkanı.",
+					"securityHeading": "Təhlükəsizlik",
+					"securityDescription": "Məlumatlarınızın daha yaxşı qorunması üçün iki faktorlu autentifikasiya konfiqurasiya edin.",
+					"deactivationHeading": "Deaktivasiya",
+					"deactivationDescription": "Hesabınızı müvəqqəti və ya daimi olaraq söndürmək istəyirsinizsə, bu seçimdən istifadə edin. Nəticələri nəzərə alın."
+				},
+				"email": {
+					"heading": "Elektron poçt ünvanı",
+					"emailLabel": "E-poçt",
+					"emailDescription": "Yeni elektron poçt ünvanınızı daxil edin.",
+					"submitButton": "Saxla",
+					"successMessage": "E-poçt uğurla yeniləndi",
+					"errorMessage": "E-poçtun yenilənməsində xəta"
+				},
+				"password": {
+					"heading": "Hesab şifrəsi",
+					"oldPasswordLabel": "Köhnə şifrə",
+					"oldPasswordDescription": "Şifrəni dəyişməzdən əvvəl şəxsiyyətinizi təsdiq etmək üçün köhnə şifrənizi daxil edin. Bu, hesabınızın təhlükəsizliyini təmin etmək üçün zəruridir.",
+					"newPasswordLabel": "Yeni şifrə",
+					"newPasswordDescription": "Yeni şifrəniz ən azı 8 simvoldan ibarət olmalıdır. Təhlükəsizliyi artırmaq üçün xüsusi simvollar da istifadə etmək tövsiyə olunur.",
+					"submitButton": "Saxla",
+					"successMessage": "Şifrə uğurla yeniləndi",
+					"errorMessage": "Şifrənin yenilənməsində xəta"
+				},
+				"twoFactor": {
+					"heading": "TOTP ilə autentifikasiya",
+					"description": "TOTP autentifikasiyasını aktivləşdirərək hesabınızın təhlükəsizliyini artırın. Bu əlavə qoruma səviyyəsi unikal kodun daxil edilməsini tələb edir ki, bu da hesabınızı icazəsiz çıxış üçün daha az həssas edir.",
+					"enable": {
+						"trigger": "Daxil et",
+						"heading": "TOTP-nin daxil edilməsi",
+						"qrInstructions": "TOTP əlavə etmək üçün QR kodu skanlaşdırın",
+						"secretCodeLabel": "Gizli kod: ",
+						"pinLabel": "PIN kod",
+						"pinDescription": "Zəhmət olmasa autentifikasiya tətbiqiniz tərəfindən verilən 6 rəqəmli kodu daxil edin.",
+						"submitButton": "Təsdiqlə",
+						"successMessage": "TOTP ilə autentifikasiya daxil edildi",
+						"errorMessage": "Kodun təsdiqlənməsində xəta"
+					},
+					"disable": {
+						"trigger": "Söndür",
+						"heading": "TOTP-ni həqiqətən söndürmək istəyirsiniz?",
+						"message": "TOTP autentifikasiyasını söndürdükdə hesabınız daha az qorunaqlı olacaq. Davam etmək istədiyinizə əminsiniz?",
+						"successMessage": "TOTP autentifikasiyası söndürüldü",
+						"errorMessage": "Söndürülməsində xəta"
+					}
+				},
+				"deactivation": {
+					"heading": "Hesabın deaktivasiyası",
+					"description": "Hesabı deaktiv etdikdən sonra ona daxil ola bilməyəcəksiniz. 7 gündən sonra hesab tamamilə silinəcək. Bu vaxta qədər çıxışı bərpa etmək və hesabın blokunu açmaq üçün dəstək xidməti ilə əlaqə saxlaya bilərsiniz.",
+					"confirmModal": {
+						"heading": "Deaktivasiyanın təsdiqi",
+						"message": "Hesabı deaktiv etmək istədiyinizə əminsiniz? Çıxışı bərpa etmək yalnız 7 gün ərzində mümkündür."
+					},
+					"button": "Deaktiv et"
+				}
+			},
+			"appearance": {
+				"header": {
+					"heading": "Görünüş",
+					"description": "Sayt interfeysi görünüşünü öz zövqünüzə görə konfigurasiya edin. Qarşılıqlı fəaliyyətinizi daha rahat edəcək mövzu və dil seçin."
+				},
+				"theme": {
+					"heading": "Mövzunun dəyişdirilməsi",
+					"description": "Sayt interfeysi üçün tünd və ya açıq mövzu seçə bilərsiniz",
+					"successMessage": "Sayt mövzusu uğurla dəyişdirildi"
+				},
+				"language": {
+					"heading": "Sayt dili",
+					"description": "Saytda istifadə olunacaq dili seçin",
+					"selectPlaceholder": "Dil seçin",
+					"successMessage": "Sayt dili uğurla dəyişdirildi"
+				},
+				"color": {
+					"heading": "Vurğu rəngi",
+					"description": "İnterfeys üçün vurğu rəngini seçin"
+				}
+			},
+			"notifications": {
+				"header": {
+					"heading": "Bildirişlər",
+					"description": "Crix-dən bildirişləri necə almaq istədiyinizi konfiqurasiya edin. Abunə olduğunuz kanalların yayımlarının başlaması və yeni abunəçilər haqqında bildirişlər alacaqsınız."
+				},
+				"siteNotifications": {
+					"heading": "Saytda bildirişlər",
+					"description": "Saytda bildirişləri söndürsəniz, kanalınıza yeni abunəçilər və yeni yayımlar haqqında bildirişlər almayacaqsınız."
+				},
+				"telegramNotifications": {
+					"heading": "Telegram-da bildirişlər",
+					"description": "Telegram vasitəsilə bildirişləri açsanız, Crix hesabınız Telegram hesabınızla əlaqələnəcək və yeni abunəliklər, yeni yayımlar, şifrənin sıfırlanması və iki faktorlu autentifikasiya kodları haqqında mesajlar alacaqsınız."
+				},
+				"successMessage": "Bildiriş parametrləri uğurla yeniləndi",
+				"errorMessage": "Bildiriş parametrlərinin yenilənməsində xəta"
+			},
+			"sessions": {
+				"header": {
+					"heading": "Sessiyalar",
+					"description": "Sessiyalar — Crix hesabınıza daxil olmaq üçün istifadə etdiyiniz və ya istifadə etdiyiniz cihazlardır. Burada hazırda aktiv sessiyalar göstərilir."
+				},
+				"info": {
+					"current": "Cari sessiya",
+					"active": "Aktiv sessiyalar",
+					"notFound": "Aktiv sessiyalar tapılmadı"
+				},
+				"sessionItem": {
+					"deleteButton": "Sil",
+					"detailsButton": "Ətraflı",
+					"confirmModal": {
+						"heading": "Sessiyanın silinməsi",
+						"message": "Bu sessiyanı silmək istədiyinizə əminsiniz? Bu əməliyyat bu cihazda sessiyanın geri qaytarılmaz silinməsinə səbəb olacaq və onunla bağlı bütün aktiv əməliyyatları sona çatdıracaq."
+					},
+					"successMessage": "Sessiya silindi",
+					"errorMessage": "Sessiyanın silinməsində xəta"
+				},
+				"sessionModal": {
+					"heading": "Sessiya haqqında məlumat",
+					"device": "Cihaz:",
+					"location": "Yer:",
+					"ipAddress": "IP ünvanı:",
+					"createdAt": "Yaradılma tarixi:"
+				}
+			}
+		},
+		"keys": {
+			"header": {
+				"heading": "Yayım açarları",
+				"description": "Yayım aparmaq üçün URL və açar yaradın."
+			},
+			"url": {
+				"heading": "URL"
+			},
+			"key": {
+				"heading": "Açar"
+			},
+			"instructionModal": {
+				"trigger": "Təlimat",
+				"heading": "🛠️ Canlı yayımlar üçün OBS quraşdırılması təlimatı 🛠️",
+				"description": "Kontentinizi auditoriya ilə bölüşməyə başlamaq üçün OBS Studio-nun qoşulması üzrə ətraflı təlimata əməl edin. Bu, yalnız bir neçə addımdır və siz efirə çıxmağa hazır olacaqsınız!",
+				"step1Title": "🔑 Addım 1: OBS Studio-nun endirilməsi və Server URL və Stream Key-in yaradılması",
+				"step1Description": "Yayımı başlamaq üçün iki mühüm element əldə etməlisiniz: Server URL və Stream Key (yayım açarı). Bu addımlara əməl edin:",
+				"downloadObs": "OBS Studio endirin",
+				"downloadObsDescription": "Yayımı konfiqurasiya etməzdən əvvəl proqramı endirin və quraşdırın",
+				"obsLinkText": "OBS Studio",
+				"copyKeys": "Server URL və Stream Key-i kopyalayın",
+				"copyKeysDescription": "Yaradıldıqdan sonra ekranda iki sahə görünəcək: Server URL və Stream Key. Məlumatları buferdə saxlamaq üçün hər bir sahənin yanındakı kopyalama nişanlarına klikləyin.",
+				"step2Title": "🎛️ Addım 2: OBS Studio-nun konfiqurasiyası",
+				"step2Description": "İndi lazımı məlumatlar əlinizdədir, gəlin OBS-i yayımınızla işləmək üçün konfiqurasiya edək:",
+				"openObs": "OBS Studio-nu açın",
+				"openObsDescription": "Əgər OBS hələ quraşdırılmayıbsa, onu rəsmi saytdan endirin və quraşdırın. Başladıqdan sonra OBS-in ana səhifəsi açılacaq.",
+				"openStreamSettings": "Yayım parametrlərini açın",
+				"openStreamSettingsDescription": "Yuxarı menyuda \"Fayl\" → \"Parametrlər\"ə klikləyin. \"Yayım\" tabına keçin.",
+				"enterDetails": "Məlumatlarınızı daxil edin",
+				"enterDetailsDescription": "\"Xidmət\" sahəsində \"Fərdi...\" seçimini seçin. Əvvəlcədən kopyaladığınız Server URL-i \"URL\" sahəsinə yapışdırın. \"Yayım açarı\" sahəsinə Stream Key-inizi yapışdırın.",
+				"saveSettings": "Parametrləri saxlayın",
+				"saveSettingsDescription": "Dəyişiklikləri saxlamaq üçün \"Tətbiq et\", sonra \"OK\"ı basın.",
+				"step3Title": "🚀 Addım 3: Yayımın başlanması",
+				"step3Description": "OBS-i uğurla konfiqurasiya etdikdən sonra canlı yayıma başlamağa hazırsınız:",
+				"startStream": "Yayımı başladın",
+				"startStreamDescription": "OBS-in ana ekranına qayıdın və \"Yayımı başla\" düyməsinə basın.",
+				"monitorStream": "Yayımınızı izləyin",
+				"monitorStreamDescription": "Yayımınız real vaxtda başlayacaq və siz onu həm platformada, həm də OBS-də müşahidə edə biləcəksiniz.",
+				"congrats": "✨ Təbriklər! İndi siz OBS-i platformamızda yayımlar üçün uğurla konfiqurasiya etdiniz. Auditoriyanız yeni parlaq anlar və kontent gözləyir! 🎉",
+				"close": "Bağla"
+			},
+			"createModal": {
+				"trigger": "Açarları yarat",
+				"heading": "Açarları yarat",
+				"ingressTypeLabel": "Bağlantı növü",
+				"ingressTypePlaceholder": "Bağlantı növünü seçin",
+				"ingressTypeDescription": "Klassik yayım üçün RTMP və ya WebRTC bağlantıları üçün WHIP seçin.",
+				"submitButton": "Yarat",
+				"successMessage": "Giriş axını yaradıldı",
+				"errorMessage": "Giriş axının yaradılmasında xəta"
+			}
+		},
+		"chat": {
+			"header": {
+				"heading": "Söhbət parametrləri",
+				"description": "Burada söhbət parametrlərinizi idarə edə bilərsiniz."
+			},
+			"isChatEnabled": {
+				"heading": "Söhbəti daxil et",
+				"description": "Söhbəti daxil etsəniz, tamaşaçılar yayımınız zamanı söhbətdə mesaj yaza biləcəklər."
+			},
+			"isChatFollowersOnly": {
+				"heading": "Söhbət yalnız abunəçilər üçün",
+				"description": "Bu parametri daxil etsəniz, yalnız abunəçiləriniz söhbətdə mesaj yaza biləcək."
+			},
+			"isChatPremiumFollowersOnly": {
+				"heading": "Söhbət yalnız premium abunəçilər üçün",
+				"description": "Bu parametri daxil etsəniz, yalnız premium abunəçilər söhbətdə mesaj yaza biləcək."
+			},
+			"successMessage": "Söhbət parametrləri uğurla yeniləndi",
+			"errorMessage": "Söhbət parametrlərinin yenilənməsində xəta"
+		},
+		"followers": {
+			"header": {
+				"heading": "Abunəçilər",
+				"description": "Burada bütün abunəçilərinizin siyahısı göstərilir."
+			},
+			"columns": {
+				"date": "Abunəlik tarixi",
+				"user": "İstifadəçi",
+				"actions": "Əməliyyatlar",
+				"viewChannel": "Kanala keç"
+			}
+		},
+		"sponsors": {
+			"header": {
+				"heading": "Sponsorlar",
+				"description": "Burada bütün sponsorlarınızın siyahısı göstərilir."
+			},
+			"columns": {
+				"date": "Bitmə tarixi",
+				"user": "İstifadəçi",
+				"plan": "Plan",
+				"actions": "Əməliyyatlar",
+				"viewChannel": "Kanala keç"
+			}
+		},
+		"plans": {
+			"header": {
+				"heading": "Premium planlar",
+				"description": "Burada kanalınız üçün premium planların siyahısı göstərilir."
+			},
+			"alert": {
+				"heading": "Kanalın təsdiqi tələb olunur",
+				"description": "Premium planlar yaratmaq üçün kanalınız təsdiqlənməlidir. Bunun üçün sizə yalnız 10 abunəçi lazımdır ki, nişan əldə edib bu funksiyaya çıxışı açasınız."
+			},
+			"createForm": {
+				"trigger": "Plan yarat",
+				"heading": "Plan yarat",
+				"titleLabel": "Adı",
+				"titlePlaceholder": "Kanala premium abunəlik",
+				"titleDescription": "Planınızın adını daxil edin. Bu ad abunəçilərinizə göstəriləcək.",
+				"descriptionLabel": "Təsvir",
+				"descriptionPlaceholder": "Planınızın nələri əhatə etdiyini təsvir edin",
+				"descriptionDescription": "Planınızın nələri əhatə etdiyini təsvir edin. Bu, abunəçilərinizə abunəliyin üstünlüklərini başa düşməyə kömək edəcək.",
+				"priceLabel": "Qiymət",
+				"priceDescription": "Planınızın qiymətini valyutada göstərin. Bu, istifadəçilərin abunəlik üçün ödəyəcəyi məbləğdir.",
+				"submitButton": "Yarat",
+				"successMessage": "Premium plan yaradıldı",
+				"errorMessage": "Plan yaradılmasında xəta"
+			},
+			"columns": {
+				"date": "Yaradılma tarixi",
+				"title": "Adı",
+				"price": "Qiymət",
+				"actions": "Əməliyyatlar",
+				"remove": "Sil",
+				"successMessage": "Plan uğurla silindi",
+				"removeMessage": "Plan silinməsində xəta"
+			}
+		},
+		"transactions": {
+			"header": {
+				"heading": "Əməliyyatlar",
+				"description": "Burada kanallara sponsorluq rəsmiləşdirməsi ilə əlaqəli əməliyyatlar göstərilir."
+			},
+			"columns": {
+				"date": "Yaradılma tarixi",
+				"status": "Status",
+				"success": "Uğurla",
+				"pending": "Gözləmədə",
+				"failed": "Xəta",
+				"expired": "Müddəti keçdi",
+				"amount": "Məbləğ"
+			}
+		}
+	},
+	"components": {
+		"liveBadge": {
+			"text": "CANLI"
+		},
+		"confirmModal": {
+			"cancel": "Ləğv et",
+			"continue": "Davam et"
+		},
+		"copyButton": {
+			"successMessage": "Kopyalandı"
+		},
+		"dataTable": {
+			"notFound": "Heç nə tapılmadı"
+		},
+		"emptyState": {
+			"heading": "Heç nə tapılmadı",
+			"text": "Saytımızın bütün guşələrini axtardıq, lakin təəssüf ki sorğunuza görə heç nə tapılmadı. Bəlkə başqa bir şey sınayırsınız?"
+		}
+	},
+	"utils": {
+		"formatDate": {
+			"months": {
+				"january": "yanvar",
+				"february": "fevral",
+				"march": "mart",
+				"april": "aprel",
+				"may": "may",
+				"june": "iyun",
+				"july": "iyul",
+				"august": "avqust",
+				"september": "sentyabr",
+				"october": "oktyabr",
+				"november": "noyabr",
+				"december": "dekabr"
+			}
+		}
+	}
+}
