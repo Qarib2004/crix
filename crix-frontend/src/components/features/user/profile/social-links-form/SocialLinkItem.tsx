@@ -125,7 +125,7 @@ export function SocialLinkItem({ socialLink, provided }: SocialLinkItemProps) {
 										<FormItem>
 											<FormControl>
 												<Input
-													placeholder='https://youtube.com/@TeaCoder52'
+													placeholder='https://youtube.com/@Crix'
 													disabled={
 														isLoadingUpdate ||
 														isLoadingRemove
