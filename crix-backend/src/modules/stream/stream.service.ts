@@ -17,8 +17,7 @@ import * as Upload from 'graphql-upload/Upload.js'
 export class StreamService {
     public constructor(private readonly prismaService:PrismaService,
         private readonly storageService:StorageService,
-        private readonly configService: ConfigService,
-
+        private readonly configService: ConfigService
     ){}
 
 
@@ -226,6 +225,7 @@ export class StreamService {
 		}
 
 		const isHost = self.id === channel.id
+        
 
 		const token = new AccessToken(
 			this.configService.getOrThrow<string>('LIVEKIT_API_KEY'),

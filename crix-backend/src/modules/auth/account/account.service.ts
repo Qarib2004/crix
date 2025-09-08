@@ -27,6 +27,8 @@ export class AccountService {
 				notificationSettings:true
 			}
 		 })
+
+		 return user
 	}
 
 

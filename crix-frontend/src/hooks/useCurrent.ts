@@ -11,7 +11,7 @@ export function useCurrent() {
 	const { isAuthenticated, exit } = useAuth()
 
 	const { data, loading, refetch, error } = useFindProfileQuery({
-		skip: !isAuthenticated
+		skip: !isAuthenticated,
 	})
 	const [clear] = useClearSessionCookieMutation()
 

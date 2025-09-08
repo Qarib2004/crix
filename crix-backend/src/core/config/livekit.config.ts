@@ -10,4 +10,5 @@ export function getLiveKitConfig(
 		apiKey: configService.getOrThrow<string>('LIVEKIT_API_KEY'),
 		apiSecret: configService.getOrThrow<string>('LIVEKIT_API_SECRET')
 	}
+
 }

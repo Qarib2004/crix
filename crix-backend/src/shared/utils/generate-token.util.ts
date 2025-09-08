@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { TokenType, User } from '@/generated'
+import { TokenType, type User } from '@/generated'
 import { PrismaService } from '@/src/core/prisma/prisma.service'
 
 export async function generateToken(
@@ -29,6 +29,14 @@ export async function generateToken(
 			}
 		}
 	})
+
+	if (existingToken) {
+		await prismaService.token.delete({
+			where: {
+				id: existingToken.id
+			}
+		})
+	}
 
 	const newToken = await prismaService.token.create({
 		data: {

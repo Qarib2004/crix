@@ -14,7 +14,7 @@ export class AccountResolver {
 
 
   @Authorization()
-  @Query(() => UserModel, {name:'findProfile'})
+  @Query(() => UserModel, {name:'findProfile', nullable: true })
   public async me(@Authorized('id') id:string){
     return this.accountService.me(id)
   }

@@ -29,6 +29,8 @@ export function ProfileMenu() {
 	const { exit } = useAuth()
 	const { user, isLoadingProfile } = useCurrent()
 
+	console.log("user: "+user)
+
 	const [logout] = useLogoutUserMutation({
 		onCompleted() {
 			exit()

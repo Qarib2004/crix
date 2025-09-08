@@ -241,7 +241,7 @@ type Query {
   findMyTransactions: [TransactionModel!]!
   findNotificationsByUser: [NotificationModel!]!
   findNotificationsUnreadCount: Float!
-  findProfile: UserModel!
+  findProfile: UserModel
   findRandomCategories: [CategoryModel!]!
   findRandomStreams: [StreamModel!]!
   findRecommendedChannels: [UserModel!]!
@@ -294,7 +294,9 @@ input SocialLinkOrderInput {
 }
 
 type StreamModel {
+  category: CategoryModel
   categoryId: String
+  chatMessages: [ChatMessageModel!]!
   createdAt: DateTime!
   id: ID!
   ingressId: String

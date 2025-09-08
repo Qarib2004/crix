@@ -8,14 +8,6 @@ import { NotificationSettingsModel } from '@/src/modules/notification/models/not
 import { FollowModel } from '@/src/modules/follow/models/follow.model'
 import { PlanModel } from '@/src/modules/sponsorship/plan/model/plan.model'
 import { SubscriptionModel } from '@/src/modules/sponsorship/subsription/model/subscription.model'
-// import { FollowModel } from '@/src/modules/follow/models/follow.model'
-// import { NotificationSettingsModel } from '@/src/modules/notification/models/notification-settings.model'
-// import { NotificationModel } from '@/src/modules/notification/models/notification.model'
-// import { PlanModel } from '@/src/modules/sponsorship/plan/models/plan.model'
-// import { SubscriptionModel } from '@/src/modules/sponsorship/subscription/models/subscription.model'
-// import { StreamModel } from '@/src/modules/stream/models/stream.model'
-
-// import { SocialLinkModel } from '../../profile/models/social-link.model'
 
 @ObjectType()
 export class UserModel implements User {

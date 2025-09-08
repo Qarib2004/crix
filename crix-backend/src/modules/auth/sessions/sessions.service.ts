@@ -85,7 +85,6 @@ export class SessionsService {
 	  public async login(req: Request, input: LoginInput, userAgent: string) {
 		const { login, password ,pin} = input
 
-		console.log('Login input:', input);
 
 		const user = await this.prismaService.user.findFirst({
 			where: {
@@ -95,6 +94,8 @@ export class SessionsService {
 				]
 			}
 		})
+
+		console.log("user:", JSON.stringify(user, null, 2))
 	
 		if (!user || user.isDeactivated) {
 			throw new NotFoundException('The user was not found')

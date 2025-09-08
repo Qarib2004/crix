@@ -69,6 +69,7 @@ export class IngressService {
 
 
    private async resetIngresses(user:User){
+    
     const ingresses = await this.livekitService.ingress.listIngress({
         roomName:user.id 
     })

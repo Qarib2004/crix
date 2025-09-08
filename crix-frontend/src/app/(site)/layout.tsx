@@ -1,4 +1,6 @@
 import { Header } from '@/components/layout/header/Header'
+import { LayoutContainer } from '@/components/layout/LayoutContainer'
+import { Sidebar } from '@/components/layout/sidebar/Sidebar'
 import type { PropsWithChildren } from 'react'
 
 
@@ -10,7 +12,8 @@ export default function SiteLayout({ children }: PropsWithChildren<unknown>) {
 			  <div className='fixed inset-y-0 z-50 h-[75px] w-full'>
                    <Header />
               </div>
-              <main className='mt-[75px]'>{children}</main>
+			   <Sidebar/>
+              <LayoutContainer>{children}</LayoutContainer>
 			</div>
 		</div>
 	)

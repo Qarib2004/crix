@@ -10,6 +10,7 @@ import { ThemeProvider } from '@/providers/ThemeProvider'
 import '@/styles/globals.css'
 import '@/styles/themes.css'
 import { ToastProvider } from '@/providers/ToastProvider'
+import { ColorSwitcher } from '@/components/ui/elements/ColorSwitcher'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default async function RootLayout({
 	return (
 		<html lang={locale} suppressHydrationWarning>
 			<body className={GeistSans.variable}>
+			<ColorSwitcher />
 				<ApolloClientProvider>
 					<NextIntlClientProvider messages={messages}>
 						<ThemeProvider
