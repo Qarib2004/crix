@@ -9,7 +9,7 @@ import * as sharp from 'sharp'
 import{ AccessToken } from 'livekit-server-sdk'
 import { ConfigService } from '@nestjs/config'
 import * as Upload from 'graphql-upload/Upload.js'
-
+import * as path from 'path'
 
 
 
@@ -131,7 +131,9 @@ export class StreamService {
 
 		const buffer = Buffer.concat(chunks)
 
-		const fileName = `/streams/${user.username}.webp`
+		const ext = path.extname(file.filename) || '.webp'
+
+		const fileName = `/streams/${user.username}${ext}`
 
 		if (file.filename && file.filename.endsWith('.gif')) {
 			const processedBuffer = await sharp(buffer, { animated: true })

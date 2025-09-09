@@ -1,6 +1,7 @@
 import { ConflictException, Injectable } from '@nestjs/common'
 import * as Upload from 'graphql-upload/Upload.js'
 import * as sharp from 'sharp'
+import * as path from 'path'
 
 import { User } from '@/generated'
 import { PrismaService } from '@/src/core/prisma/prisma.service'
@@ -33,7 +34,9 @@ export class ProfileService {
 
 		const buffer = Buffer.concat(chunks)
 
-		const fileName = `channels/${user.username}.webp`
+		const ext = path.extname(file.filename) || '.webp'
+
+		const fileName = `channels/${user.username}${ext}`
 
 		if (file.filename && file.filename.endsWith('.gif')) {
 			const processedBuffer = await sharp(buffer, { animated: true })
