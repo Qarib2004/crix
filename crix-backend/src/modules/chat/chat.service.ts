@@ -9,7 +9,7 @@ import { User } from '@/generated'
 
 import { SendMessageInput } from './inputs/send-message.input'
 import { ChangeChatSettingsInput } from './inputs/change-chat-setting.input'
-import { KafkaProducerService } from '../kafka/kafka.-producer.service'
+import { KafkaProducerService } from '../kafka/kafka-producer.service'
 
 
 @Injectable()
